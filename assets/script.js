@@ -2,7 +2,7 @@ let latestProjectTabs = document.querySelectorAll('.latest-project .tabs li');
 let projectSquaresDivs = document.querySelectorAll('.latest-project .project-squares');
 
 for (let i = 0; i < latestProjectTabs.length; i++) {
-  latestProjectTabs[i].addEventListener('click',changeTab)
+  latestProjectTabs[i].addEventListener('click', changeTab)
 }
 
 function changeTab(event) {
@@ -47,7 +47,7 @@ function toggleShow(event) {
 }
 
 // Scroll Handler
-$(window).scroll(function() {
+$(window).scroll(function () {
   var width = document.innerWidth;
   checkBodyScroll();
 });
@@ -67,7 +67,6 @@ function checkBodyScroll() {
 
   $('.animate').each(function () {
     let counter = $(this);
-    console.log("animating..")
     if ($(window).scrollTop() + height / 1.5 > counter.offset().top) {
       if (!counter.hasClass('animation-loaded')) {
         counter.addClass('animation-loaded');

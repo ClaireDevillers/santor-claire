@@ -2,9 +2,7 @@
 
 With a mockup provided by the client, i implemented a simple Frontend proof of concept
 
-live Demo:
-
-<a href="https://clairedevillers.github.io/santor-claire/">click here</a>
+live Demo: <a href="https://clairedevillers.github.io/santor-claire/">click here</a>
 
 screenshot:
 
